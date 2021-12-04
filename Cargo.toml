@@ -1,0 +1,10 @@
+[package]
+name = "mp3-sort"
+version = "0.1.0"
+edition = "2021"
+license = "AGPL-3.0-only"
+repository = "https://github.com/Lokathor/mp3-sort"
+description = "sorts mp3 files in the filesystem based on id3 data."
+
+[dependencies]
+id3 = "0.6.6"
